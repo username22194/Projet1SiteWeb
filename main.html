@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
         <main>
             <section>
                 <h2>Bienvenu dans The Lost Crown ! </h2>
-                <p>The Lost Crown est un jeu python, un RPG avec des combats au tour par tour. </p>
+                <p>The Lost Crown est un jeu python, un RPG avec des combats tour par tour. </p>
                 <p>Plongez vous dans le monde de Salie et Magnus, et amusez vous ! </p>
             </section>
             
@@ -31,6 +31,13 @@
                 </table>
             </section>
         </main>
+
+        <script>
+            document.addEventListener('keydown', function(event) { //Page Suivante
+                if (event.key === 'ArrowRight') {
+                    window.location.href = 'Trame.html'
+                }})
+        </script>
 
     </body>
 </html>
