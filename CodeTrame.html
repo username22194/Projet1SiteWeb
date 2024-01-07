@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Trame</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Code de la <br>trame</h1>
+        </header>
+
+        <main>
+            <section>
+                <a href="main.py" title="Cliquer pour ouvrir le code python" class="titre">Le code python de la trame</a>
+            </section>
+        </main>
+        <script> 
+            document.addEventListener('keydown', function(event) { //Page Précédente
+                if (event.key == 'ArrowLeft') {
+                    window.location.href = 'Trame.html'
+                }
+            })
+            document.addEventListener('keydown', function(event) { //Page Précédente
+                if (event.key == 'ArrowRight') {
+                    window.location.href = 'Combat.html'
+                }
+            })
+        </script>
+    </body>
