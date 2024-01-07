@@ -66,12 +66,14 @@
             document.addEventListener('keydown', function(event) { //Page Précédente
                 if (event.key == 'ArrowLeft') {
                     window.location.href = 'main.html'
-                }
-            })
+                }})
             document.addEventListener('keydown', function(event) { //Page Suivante
                 if (event.key == 'ArrowRight') {
-                    window.location.href = 'Combat.html'
-                }
-            })
+                    window.location.href = 'CodeTrame.html'
+                }})
+            document.addEventListener('keydown', function(event) { //Première Page
+                if (event.key === 'Enter') {
+                    window.location.href = 'main.html'
+                }})
         </script>
     </body>
