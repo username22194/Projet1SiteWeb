@@ -12,21 +12,19 @@
             <h1>Code de la <br>trame</h1>
         </header>
 
-        <main>
-            <section>
-                <a href="main.py" title="Cliquer pour ouvrir le code python" class="titre">Le code python de la trame</a>
-            </section>
-        </main>
+        <main></main>
         <script> 
             document.addEventListener('keydown', function(event) { //Page Précédente
                 if (event.key == 'ArrowLeft') {
                     window.location.href = 'Trame.html'
-                }
-            })
-            document.addEventListener('keydown', function(event) { //Page Précédente
+                }})
+            document.addEventListener('keydown', function(event) { //Page Suivante
                 if (event.key == 'ArrowRight') {
                     window.location.href = 'Combat.html'
-                }
-            })
+                }})
+            document.addEventListener('keydown', function(event) { //Première Page
+                if (event.key === 'Enter') {
+                    window.location.href = 'main.html'
+                }})
         </script>
     </body>
