@@ -12,16 +12,19 @@
             <h1>Les Combats</h1>
         </header>
 
-        <main>
-            <section>
-                <a href="combat.py" title="Cliquer pour ouvrir le code du combat" class="titre">le code python des combats</a>
-            </section>
-        </main>
+        <main></main>
         <script>   
             document.addEventListener('keydown', function(event) { //Page Précédente
                 if (event.key == 'ArrowLeft') {
                     window.location.href = 'CodeTrame.html'
-                }
-            })
+                }})
+            document.addEventListener('keydown', function(event) { //Page Suivante
+                if (event.key == 'ArrowRight') {
+                    window.location.href = 'Conclusion.html'
+                }})
+            document.addEventListener('keydown', function(event) { //Première Page
+                if (event.key === 'Enter') {
+                    window.location.href = 'main.html'
+                }})
         </script>
     </body>
