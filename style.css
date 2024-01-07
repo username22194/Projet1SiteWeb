@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
     color: white;
@@ -9,7 +10,7 @@ header {
     background-position: center; 
     height: 100vh;
     color: gold;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -24,9 +25,24 @@ main {
 
 .TableauIntro {
     border: 0;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     width: 80vh;
     height: 60vh;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120vh;
+    height: 50vh;
+}
+
+tr, td {
+    padding: 10px;
+}
+
+.titre {
+    text-decoration: underline;
+    color: beige;
+    font-size: larger;
 }
