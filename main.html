@@ -15,7 +15,7 @@
 
         <main>
             <section>
-                <h2>Bienvenu dans The Lost Crown ! </h2>
+                <h2 class="titre">Bienvenu dans The Lost Crown ! </h2>
                 <p>The Lost Crown est un jeu python, un RPG avec des combats tour par tour. </p>
                 <p>Plongez vous dans le monde de Salie et Magnus, et amusez vous ! </p>
             </section>
@@ -23,10 +23,27 @@
             <section>
                 <table class="TableauIntro">
                     <tr>
-                        <td><a href="thelostcrown.py"><h2>Jeu The Lost Crown : </h2></a></td>
+                        <td><h2>Jeu The Lost Crown</h2></td>
                     </tr>
                     <tr>
-                        <td><a href="thelostcrown.py" class="TableauIntro"><img src="thelostcrown.jpg" title="Cliquer pour ouvrir le fichier python du jeu"></a></td>
+                        <td><img src="thelostcrown.jpg" title="Illustration du jeu"></a></td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <table class="note">
+                    <tr>
+                        <td class="note">Dans ce site, vous pouvez : </td>
+                        <td class="note">- Aller à la page suivante avec la flèche droite</td>
+                    </tr>
+                    <tr>
+                        <td class="note"></td>
+                        <td class="note">- Aller à la page précédente avec la flèche gauche</td>
+                    </tr>
+                    <tr>
+                        <td class="note"></td>
+                        <td class="note">- Revenir à cette page avec Entrer</td>
                     </tr>
                 </table>
             </section>
@@ -36,6 +53,10 @@
             document.addEventListener('keydown', function(event) { //Page Suivante
                 if (event.key === 'ArrowRight') {
                     window.location.href = 'Trame.html'
+                }})
+            document.addEventListener('keydown', function(event) { //Première Page
+                if (event.key === 'Enter') {
+                    window.location.href = 'main.html'
                 }})
         </script>
 
